@@ -6,6 +6,7 @@ FALSE            Echo                - Echo the input file data (flag)
 ---------------------- HYDRODYN -----------------------------------------------
 "./hd_primary.inp" HDInputFile        - Primary HydroDyn input file name (quoted string)
 "./driver"         OutRootName        - The name which prefixes all HydroDyn generated files (quoted string)
+.FALSE.          Linearize           - Linearize
 50000               NSteps            - Number of time steps in the simulations (-)
 0.025              TimeInterval        - TimeInterval for the simulation (sec)
 ---------------------- WAMIT INPUTS -------------------------------------------
